@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="History"
+        android:textColor="#FFFBF0"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="How To Get There"
+        android:textColor="#FFFBF0"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="What To See"
+        android:textColor="#FFFBF0"
+        android:textSize="8pt"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="What to Eat"
+
+        android:textColor="#FFFBF0"
+        android:textSize="8pt"
+
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="Map"
+        android:textColor="#FFFBF0"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="Gallery"
+        android:textColor="#FFFBF0"
+        android:textSize="8pt"
+
+        />
+
+</LinearLayout>

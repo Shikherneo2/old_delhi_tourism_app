@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#1A1A1A"
+	    android:orientation="horizontal" >
+
+<Button
+	        android:id="@+id/previous"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="30pt"
+	        android:text="Previous"
+	        android:layout_gravity = "center" />
+
+
+	    <LinearLayout 
+        android:id="@+id/gallery_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp" 
+    android:layout_gravity = "center"
+    android:background="#1A1A1A"
+    android:orientation="vertical">
+
+		<ImageView
+		    android:id="@+id/gallery1"
+		    android:layout_width="600dp"
+		    android:layout_height="410dp"
+		    android:src="@drawable/chandnichowk1" />
+			   
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_marginTop="20dp"
+    android:textSize="11pt"
+    
+    android:textColor="#CCCCCC"
+    android:text="Busy Streets of Chandni Chowk" 
+    android:layout_gravity="center"
+    />
+
+</LinearLayout>
+
+	    <Button
+	        android:id="@+id/next"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:text=" Next " 
+	        android:layout_gravity = "center"/>
+	   
+
+
+    
+    </LinearLayout>
+    

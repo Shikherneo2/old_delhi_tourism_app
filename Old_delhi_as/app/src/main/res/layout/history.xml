@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1A1A1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A1A1A"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/qutub" />
+
+        <TextView
+            android:id="@+id/textView_history1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/history"
+            android:textColor="#CCCCCC"
+            android:textSize="7pt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewhistory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Prime Attractions : "
+                android:textColor="#b0281a"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_history3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red Fort, Chandni Chowk, Raj Ghat, Jantar Mantar, India Gate, Rashtrapati Bhavan, Sansad Bhavan\n \n"
+                android:textColor="#CCCCCC"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+         android:id="@+id/textView1"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:background="@drawable/box_border"
+         android:gravity="center"
+         android:text="History"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFBF0"
+         android:textSize="7pt" />
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="How To Get There"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/box_border" 
+      	android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="What To See"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	
+      	/>
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="What to Eat"
+        
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	
+      	/>
+      <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="Where to Stay"
+        
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	
+      	/>
+       <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="What To Shop"
+        
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	
+      	/>
+       <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="Hire A Tour Guide"
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	/>
+       
+       <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="Map"
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	/>
+       <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="7pt"
+        android:textColor="#FFFBF0"
+        android:text="Gallery"
+        android:background="@drawable/box_border" 
+      	android:gravity="center"
+      	
+      	/>
+    
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A1A" >
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "\n"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center">   
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/teaindian" 
+    />
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text = " Indian Tea at Imperial"
+     	android:padding="7dp"
+     	android:textColor="#b0281a"
+        />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text=" A remnant ritual of India’s colonial British rule (1858-1947), a proper afternoon tea can still be found at a few select places around Delhi,complete with dainty cucumber sandwiches, delicate desserts, and strong India-grown tea."
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/aloochat" 
+    />
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text = " Aloo Chat At Hira Lal"
+     	android:padding="10dp"
+     	android:textColor="#b0281a"
+        />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text=" For this very basic, very delicious chaat, boiled potatoes (aloo) are cubed, fried, and spiced up, then served hot with toothpicks. \nThese hunks of frying potato on large, flat tawas manned by chaat walas are a common sight on Delhi’s streets."
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/alootikki" 
+    />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="Aloo Chat At Nathu&apos;s"
+         android:textColor="#b0281a"
+         android:textSize="8pt"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:text="This popular North Indian street chaat, or snack, is a golden-fried potato (aloo) patty, /noften stuffed with something like peas or daal and served with a variety of spicy chutneys, and sometimes chole (chickpeas). "
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center"> 
+      
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/bedmihalwa" 
+    />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="Bedami Aloo and Halwa, at Chawri Bazaar"
+         android:textColor="#b0281a"
+         android:textSize="8pt"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="One of India’s best oddball savory-sweet pairings, \nand a popular Delhi breakfast (especially in winter), bedmi-aloo and nagori-halwa are two distinct dishes eaten together"
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/naan" 
+    />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="Naan, Chapati At Roadside Dhabas"
+         android:textColor="#b0281a"
+         android:textSize="8pt"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="In North India, the sidekick to those thick curries is always bread, not rice. \nRice is often available, should you prefer it, but there’s nothing like a hot piece of freshly made bread for scooping \nand mopping up a saucy dish—it is how the food here’s been eaten for centuries."
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         android:padding="7dp"
+         android:src="@drawable/butterchicken" 
+    />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="Butter Chicken At Pandara Road"
+         android:textColor="#b0281a"
+         android:textSize="8pt"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:padding="7dp"
+         android:text="It’s said that butter chicken is the Indian forerunner to chicken tikka masala, \nallegedly invented in the U.K. in the 1960s to cater to the British palate. The (decidedly unscientific) differences between the dishes? CTM is generally boneless, with a curry dominated (often) by tomato and cream; BC is traditionally on the bone—and features more butter. Lots of it."
+         android:textColor="#CCCCCC"
+         android:textSize="6pt" />
+
+     </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
